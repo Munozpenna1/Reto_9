@@ -108,7 +108,19 @@ es_digito(*valores)
 
 3. Escriba una función recursiva para calcular la operación de la potencia.
 
-¿Como asi?
+def potencia(base:float, exponente:int):
+ 
+
+    if exponente==0:
+        return 1
+    if exponente== 1:
+        return base
+    else:
+        return base*potencia(base, exponente-1) 
+if __name__ == "__main__":  
+    base= float(input("ingrese el numero de la base:"))
+    exponente= int(input("Ingrese el exponente deseado:"))
+    print(str(potencia(base, exponente)))
 
 4. Utilice la siguiente plantilla de code para contar el tiempo:
 ```
