@@ -133,7 +133,7 @@ Respuesta
 ...
 
 
-![Iker casillas](asi.png "Usuario creado" )
+![asi.png](asi.png "Usuario creado" )
 
 Linkedin 
 https://uy.linkedin.com/in/diego-alejandro-mu%C3%B1oz-penna-5164ba151
